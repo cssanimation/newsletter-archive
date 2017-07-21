@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class=" no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Animation Weekly - Issue 4</title>
+<meta name="description" content="Tools, WebGL, CSS approaches, Bouncy ball comparison and code-driven art">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic" rel="stylesheet">
+<style>
+body { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_299af612-3cc3-48bb-aa53-5bbd84f27e4a.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='Tools, WebGL, CSS approaches, Bouncy ball comparison and code-driven art'></meta>
+  <meta property="og:image" content="../../assets/images/composited_3983726e-6e3a-409b-a02f-a3cb42de75c3.png">
+    <meta property="og:image:width" content="585">
+    <meta property="og:image:height" content="543">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/3983726e-6e3a-409b-a02f-a3cb42de75c3.png" alt="CSS Animation Weekly" width="260" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CSS Animation Weekly is a roundup of all the latest CSS animation articles and inspiration. Subscribe now and never miss an issue.</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/4/index.html#start">
+        Issue 4 &nbsp;<i><time class='published' datetime='2016-08-22'>August 22nd 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-welcome">
+        <div class="i" id="welcome">
+            <div class="item item--issue">
+  <a name="t-179780"></a>
+  
+    <p>This week we're focusing on tools and services that make your animating life easier. Whether that's finding the right WebGL tool, learning the various ways CSS animation can be used, or stringing together complex animations with JavaScript.</p>
+
+<p>Also, if you're interested in working for the world's top companies, check out this week's sponsor, <a href="http://www.launchbit.com/taz/11367-6304-111">Toptal</a>.</p>
+
+<p>As ever, if you've found something cool you'd like shared, let me know!</p>
+
+<p>♥️</p>
+
+<p>Donovan at CSSAnimation.rocks</p>
+  <span class="item__footer">CSS Animation Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-articles">
+        <div class="i" id="articles">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Articles</span></h2>
+            <div class="item item--issue item--link">
+  <a name="miwcbJC"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@evejweinberg/all-the-webgl-tools-and-frameworks-i-have-looked-at-a1c22154591b#.krfzmuccl">Finding the best WebGL tool</a></h3>
+    <p>Eve Weinberg takes on the task of exploring the many tools and helpful utilities for working with WebGL. Essential reading if you're thinking of getting into advanced animation in the browser.</p>
+  <span class="item__footer"><a href="https://medium.com/@evejweinberg/all-the-webgl-tools-and-frameworks-i-have-looked-at-a1c22154591b#.krfzmuccl">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GHvXvwv"></a>
+  
+  <h3 class="item__title"><a href="https://envato.com/blog/css-web-animation-tools-techniques-resources/">CSS Web Animation Tools, Techniques and Resources</a></h3>
+    <p>Jake Rocheleau dives into CSS animation resources, covering the basics, SVGs, timing functions and on-scroll events.</p>
+  <span class="item__footer"><a href="https://envato.com/blog/css-web-animation-tools-techniques-resources/">envato.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-sponsor">
+        <div class="i" id="sponsor">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Sponsor</span></h2>
+            <div class="item item--issue item--link">
+  <a name="9dJSj"></a>
+      <a rel="nofollow" href="http://www.launchbit.com/taz/11367-6304-111"><img src="twenty_by_nine_extra_large_4ddf8867-3f89-4523-be3e-1d4194f21711.png" title="Toptal: Find Your Top Designers" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a rel="nofollow" href="http://www.launchbit.com/taz/11367-6304-111">Toptal: Find Your Top Designers</a></h3>
+    <p>See why top startups depend on Toptal to connect them with elite designers, hand-picked to match their needs. <strong>Work with top designers</strong> on an on-demand basis.</p>
+  <span class="item__footer"><a rel="nofollow" href="http://www.launchbit.com/taz/11367-6304-111">launchbit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-toools">
+        <div class="i" id="tools">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Tools</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2YncgRZ"></a>
+  
+  <h3 class="item__title"><a href="http://anime-js.com/">anime.js</a></h3>
+    <p>Anime.js is an elegant JS based animation framework. Useful for creating randomised effects and animations with relatively little code.</p>
+  <span class="item__footer"><a href="http://anime-js.com/">anime-js.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Cji5ZqE"></a>
+  
+  <h3 class="item__title"><a href="https://daniel-lundin.github.io/snabbt.js/">snabbt.js</a></h3>
+    <p>If you're finding CSS keyframes don't quite cut it, Snabbt is worth considering. It is a minimalist JS animation framework that makes use of CSS for smooth results.</p>
+  <span class="item__footer"><a href="https://daniel-lundin.github.io/snabbt.js/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IFNwl6Y"></a>
+  
+  <h3 class="item__title"><a href="http://daneden.github.io/animate.css/">Animate.css</a></h3>
+    <p>A rightfully popular toolkit for adding CSS animations to your UI. It's a set of animations covering everything from sliding in, zooming, bouncing and more.</p>
+  <span class="item__footer"><a href="http://daneden.github.io/animate.css/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7g3sPxY"></a>
+  
+  <h3 class="item__title"><a href="http://mynameismatthieu.com/WOW/">WOW.js</a></h3>
+    <p>A popular tool that triggers animations on scroll. It's set up to work nicely with Animate.css but you can use your own animations if you want to create a unique voice.</p>
+  <span class="item__footer"><a href="http://mynameismatthieu.com/WOW/">mynameismatthieu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RHdwdLp"></a>
+  
+  <h3 class="item__title"><a href="http://scrollanim.kissui.io/">Scrollanim</a></h3>
+    <p>A handy utility to trigger animations on scroll. Scrollanim uses Animate.css to trigger animations on scroll.</p>
+  <span class="item__footer"><a href="http://scrollanim.kissui.io/">kissui.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IAoHSM6"></a>
+  
+  <h3 class="item__title"><a href="http://antrikshy.com/Tinseltown.js/">Tinseltown.js</a></h3>
+    <p>Recreate the hacker-style TV scenes with this fun tiny JS animation plugin. Random faux Hollywood-style page loading effects, and less than 4kb in size.</p>
+  <span class="item__footer"><a href="http://antrikshy.com/Tinseltown.js/">antrikshy.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="78LcVjJ"></a>
+  
+  <h3 class="item__title"><a href="https://www.animatron.com/">Free HTML5 Online Animation Maker, Banner Maker and Video Maker | Animatron</a></h3>
+    <p>Billed as "animation for the rest of us", Animatron is a web-based tool for generating explainer animations, banners and other HTML/CSS elements using animation.</p>
+  <span class="item__footer"><a href="https://www.animatron.com/">animatron.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-inspiration">
+        <div class="i" id="inspiration">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Inspiration</span></h2>
+            <div class="item item--issue item--link">
+  <a name="wDWnlVC"></a>
+      <a href="https://sparkbox.github.io/bouncy-ball/"><img src="Screen_Shot_2016-08-20_at_18.png" title="Bouncy Ball - Compare Web Animation Techniques" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://sparkbox.github.io/bouncy-ball/">Bouncy Ball - Compare Web Animation Techniques</a></h3>
+    <p>Wondering how the various frameworks compare? Find some inspiration here with a "hello world" of animation created using each approach.</p>
+  <span class="item__footer"><a href="https://sparkbox.github.io/bouncy-ball/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Fc70YDi"></a>
+      <a href="http://codepen.io/jonathansilva/pen/mEoEVw"><img src="twenty_by_nine_extra_large_7d5e58a2-4c35-4dbc-b6b0-4a617caad962.png" title="Project Deadline " alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://codepen.io/jonathansilva/pen/mEoEVw">Project Deadline </a></h3>
+    <p>Spooky SVG with CSS animation that counts down toward the deadline.</p>
+  <span class="item__footer"><a href="http://codepen.io/jonathansilva/pen/mEoEVw">codepen.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="MqsnyiT"></a>
+      <a href="http://codepen.io/team/digitalocean/pen/Wxmpjb"><img src="twenty_by_nine_extra_large_f74b842e-427c-4100-875a-167cf2a2dd66.png" title="The Wave" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://codepen.io/team/digitalocean/pen/Wxmpjb">The Wave</a></h3>
+    <p>An elegant wave of bubbles with hover effect, from the folks at Digital Ocean. Nice touch with the Sammy Shark image.</p>
+  <span class="item__footer"><a href="http://codepen.io/team/digitalocean/pen/Wxmpjb">codepen.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-animationinthewild">
+        <div class="i" id="animationinthewild">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Animation in the wild</span></h2>
+            <div class="item item--issue item--link">
+  <a name="BvyDFLU"></a>
+      <a href="http://gearaward.com/?2d"><img src="Screen_Shot_2016-08-20_at_17.png" title="GearAward - Code-driven art" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://gearaward.com/?2d">GearAward - Code-driven art</a></h3>
+    <p>An inruiling 3D-style effect on the background image here, try moving the mouse to see the result. The site also links loads of interesting CodePen experiments.</p>
+  <span class="item__footer"><a href="http://gearaward.com/?2d">gearaward.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/3/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-08-15'>August 15th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>4 of 17</span></li>
+    <li class="next">
+      <a href="../../issues/5/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-08-29'>August 29th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2016-2017 CSS Animation Weekly
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+        | <a href="mailto:donovan@cssanimation.rocks">Suggest a link</a> | <a href="https://twitter.com/cssanimation">Follow CSSAnimation on Twitter</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
